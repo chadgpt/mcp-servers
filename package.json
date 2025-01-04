@@ -29,6 +29,7 @@
     "@modelcontextprotocol/server-filesystem": "*",
     "@modelcontextprotocol/server-everart": "*",
     "@modelcontextprotocol/server-sequential-thinking": "*",
-    "@modelcontextprotocol/server-time": "*"
+    "@modelcontextprotocol/server-time": "*",
+    "npm-search-mcp-server": "*"
   }
 }
