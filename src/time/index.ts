@@ -32,6 +32,7 @@ async function handleToolCall(name: string, args: any): Promise<CallToolResult> 
   switch (name) {
     case "get_current_time":
       const currentTime = new Date().toISOString();
+      console.error(currentTime);
       return {
         content: [{
           type: "text",
@@ -53,8 +54,8 @@ async function handleToolCall(name: string, args: any): Promise<CallToolResult> 
 
 const server = new Server(
   {
-    name: "example-servers/time",
-    version: "0.1.0",
+    name: "custom-servers/ts-time",
+    version: "0.1.1",
   },
   {
     capabilities: {

@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "mcp-server-npm-search"
+version = "0.1.0"
+description = "A Model Context Protocol server that allows you to search for npm packages by calling the `npm search` command."
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mcp = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
